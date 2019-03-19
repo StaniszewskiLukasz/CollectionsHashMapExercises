@@ -10,7 +10,8 @@ public class Exercise8 {
         map.put(2,"ValueTwo");
         map.put(3,"ValueThree");
         map.put(4,"ValueFour");
+        System.out.println(map + "Widok mapy");
         Set set = map.entrySet();
-        System.out.println(set);
+        System.out.println(set + "Widok seta");
     }
 }

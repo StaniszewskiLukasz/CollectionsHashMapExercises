@@ -12,8 +12,8 @@ public class Exercise3 {
         map.put(3,"ValueThree");
         map.put(4,"ValueFour");
         HashMap<Integer,String> mapSecond = new HashMap<>();
-        for (Map.Entry<Integer, String> stringEntry : map.entrySet()) {
-            mapSecond.put(stringEntry.getKey(),stringEntry.getValue());
+        for (Map.Entry<Integer, String> FirstMapValue : map.entrySet()) {
+            mapSecond.put(FirstMapValue.getKey(),FirstMapValue.getValue());
         }
         for (Map.Entry<Integer, String> entry : mapSecond.entrySet()) {
             System.out.println(entry);
